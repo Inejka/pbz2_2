@@ -1,0 +1,443 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/dante/ontologies/2022/1/untitled-ontology-8"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/dante/ontologies/2022/1/untitled-ontology-8">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://edamontology.org</Import>
+    <Import>http://purl.obolibrary.org/obo/2020-03-05/cvdo.owl</Import>
+    <Declaration>
+        <Class IRI="#Cardiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cardiomyopathy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Congenital_Heart_Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coronary_Artery_Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Endocarditis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heart_Arrhythmias"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heart_Failure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Heart_Valve_Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pericardial_Disease"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rheumatic_heart_disease"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#branch"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#disease"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#have"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ankheseshen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cardiomyopathy_SP1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cardiomyopathy_SP2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Congenital_Heart_Disease_SP1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Congenital_Heart_Disease_SP2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coronary_Artery_Disease_SP1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Coronary_Artery_Disease_SP2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Endocarditis_SP1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Endocarditis_SP2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heart_Arrhythmias_SP1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heart_Arrhythmias_SP2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heart_Failure_SP1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heart_Failure_SP2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heart_Valve_Disease_SP1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heart_Valve_Disease_SP2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Khamenhotep"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pericardial_Disease_SP1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pericardial_Disease_SP2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rheumatic_heart_disease_SP1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rheumatic_heart_disease_SP2"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Cardiology"/>
+        <Class IRI="#Medicine"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiology"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#disease"/>
+            <Class IRI="#Cardiomyopathy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiology"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#disease"/>
+            <Class IRI="#Congenital_Heart_Disease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiology"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#disease"/>
+            <Class IRI="#Coronary_Artery_Disease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiology"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#disease"/>
+            <Class IRI="#Endocarditis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiology"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#disease"/>
+            <Class IRI="#Heart_Arrhythmias"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiology"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#disease"/>
+            <Class IRI="#Heart_Failure"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiology"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#disease"/>
+            <Class IRI="#Heart_Valve_Disease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiology"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#disease"/>
+            <Class IRI="#Pericardial_Disease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiology"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#disease"/>
+            <Class IRI="#Rheumatic_heart_disease"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiomyopathy"/>
+        <Class IRI="#Cardiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Congenital_Heart_Disease"/>
+        <Class IRI="#Cardiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coronary_Artery_Disease"/>
+        <Class IRI="#Cardiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Endocarditis"/>
+        <Class IRI="#Cardiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heart_Arrhythmias"/>
+        <Class IRI="#Cardiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heart_Failure"/>
+        <Class IRI="#Cardiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Heart_Valve_Disease"/>
+        <Class IRI="#Cardiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicine"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#branch"/>
+            <Class IRI="#Cardiology"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pericardial_Disease"/>
+        <Class IRI="#Cardiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rheumatic_heart_disease"/>
+        <Class IRI="#Cardiology"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Human"/>
+        <NamedIndividual IRI="#Ankheseshen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cardiomyopathy"/>
+        <NamedIndividual IRI="#Cardiomyopathy_SP1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cardiomyopathy"/>
+        <NamedIndividual IRI="#Cardiomyopathy_SP2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Congenital_Heart_Disease"/>
+        <NamedIndividual IRI="#Congenital_Heart_Disease_SP1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Congenital_Heart_Disease"/>
+        <NamedIndividual IRI="#Congenital_Heart_Disease_SP2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Coronary_Artery_Disease"/>
+        <NamedIndividual IRI="#Coronary_Artery_Disease_SP1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Coronary_Artery_Disease"/>
+        <NamedIndividual IRI="#Coronary_Artery_Disease_SP2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Endocarditis"/>
+        <NamedIndividual IRI="#Endocarditis_SP1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Endocarditis"/>
+        <NamedIndividual IRI="#Endocarditis_SP2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Heart_Arrhythmias"/>
+        <NamedIndividual IRI="#Heart_Arrhythmias_SP1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Heart_Arrhythmias"/>
+        <NamedIndividual IRI="#Heart_Arrhythmias_SP2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Heart_Failure"/>
+        <NamedIndividual IRI="#Heart_Failure_SP1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Heart_Failure"/>
+        <NamedIndividual IRI="#Heart_Failure_SP2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Heart_Valve_Disease"/>
+        <NamedIndividual IRI="#Heart_Valve_Disease_SP1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Heart_Valve_Disease"/>
+        <NamedIndividual IRI="#Heart_Valve_Disease_SP2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Human"/>
+        <NamedIndividual IRI="#Khamenhotep"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pericardial_Disease"/>
+        <NamedIndividual IRI="#Pericardial_Disease_SP1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pericardial_Disease"/>
+        <NamedIndividual IRI="#Pericardial_Disease_SP2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rheumatic_heart_disease"/>
+        <NamedIndividual IRI="#Rheumatic_heart_disease_SP1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rheumatic_heart_disease"/>
+        <NamedIndividual IRI="#Rheumatic_heart_disease_SP2"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Ankheseshen"/>
+        <NamedIndividual IRI="#Cardiomyopathy_SP1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Ankheseshen"/>
+        <NamedIndividual IRI="#Congenital_Heart_Disease_SP1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Ankheseshen"/>
+        <NamedIndividual IRI="#Coronary_Artery_Disease_SP1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Ankheseshen"/>
+        <NamedIndividual IRI="#Endocarditis_SP1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Ankheseshen"/>
+        <NamedIndividual IRI="#Heart_Arrhythmias_SP1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Ankheseshen"/>
+        <NamedIndividual IRI="#Heart_Failure_SP1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Ankheseshen"/>
+        <NamedIndividual IRI="#Heart_Valve_Disease_SP1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Ankheseshen"/>
+        <NamedIndividual IRI="#Pericardial_Disease_SP1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Ankheseshen"/>
+        <NamedIndividual IRI="#Rheumatic_heart_disease_SP1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Khamenhotep"/>
+        <NamedIndividual IRI="#Cardiomyopathy_SP2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Khamenhotep"/>
+        <NamedIndividual IRI="#Congenital_Heart_Disease_SP2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Khamenhotep"/>
+        <NamedIndividual IRI="#Coronary_Artery_Disease_SP2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Khamenhotep"/>
+        <NamedIndividual IRI="#Endocarditis_SP2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Khamenhotep"/>
+        <NamedIndividual IRI="#Heart_Arrhythmias_SP2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Khamenhotep"/>
+        <NamedIndividual IRI="#Heart_Failure_SP2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Khamenhotep"/>
+        <NamedIndividual IRI="#Heart_Valve_Disease_SP2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#have"/>
+        <NamedIndividual IRI="#Khamenhotep"/>
+        <NamedIndividual IRI="#Pericardial_Disease_SP2"/>
+    </ObjectPropertyAssertion>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#have"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#branch"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#disease"/>
+    </AsymmetricObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#branch"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#disease"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#have"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#branch"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#disease"/>
+        <Class IRI="#Medicine"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#have"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#branch"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#disease"/>
+        <Class IRI="#Medicine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#have"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
